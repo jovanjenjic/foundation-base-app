@@ -1,0 +1,100 @@
+.container {
+    padding: 40px;
+    background-color: white;
+    max-width: 960px;
+    height: fit-content;
+    border-radius: 12px;
+}
+
+.text-wrapper {
+    margin-bottom: 60px;
+}
+
+.bold-text {
+    color: #333138;
+    font-family: Geologica;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.title {
+    color: #0B88F0;
+    font-family: Geologica;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48px;
+}
+
+.subtitle {
+    color: #333138;
+    text-align: justify;
+    font-family: Geologica;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+.content-text {
+    color: #333138;
+    text-align: justify;
+    font-family: Geologica;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+.number-text {
+    color: #333138;
+    text-align: justify;
+    font-family: Geologica;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    display: flex;
+
+    &__bold {
+        color: #262728;
+        font-weight: 500;
+        display: contents;
+
+        &--number {
+            display: flex;
+            margin: 0 8px
+        }
+    }
+
+    &__link {
+        color: #0496FF;
+        font-weight: 500;
+        display: contents;
+    }
+}
+
+.button-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button {
+    height: 60px;
+    background: #0496FF;
+    text-transform: none;
+    font-family: Geologica;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 12px;
+
+    &:hover {
+        background: #076cb5;
+    }
+}

@@ -1,0 +1,19 @@
+{
+  "containerDefinitions": [
+    {
+      "name": "webapp",
+      "image": "placeholder",
+      "cpu": 128,
+      "memory": 256,
+      "portMappings": [
+        {
+          "containerPort": 80,
+          "protocol": "tcp"
+        }
+      ],
+      "essential": true
+    }
+  ],
+  "family": "webapp",
+  "networkMode": "awsvpc"
+}

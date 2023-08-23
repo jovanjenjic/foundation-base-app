@@ -1,0 +1,68 @@
+.sidebar {
+  border-right: 1px solid #EEE;
+  width: 350px;
+  height: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  padding: 15px;
+}
+
+.nav-item {
+  padding: 30px 15px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  height: 24px;
+  text-decoration: none;
+  padding: 12px;
+  transition: color 0.3s ease, background-color 0.3s ease, padding 0.3s ease;
+
+  &__icon {
+    margin-right: 15px;
+    height: 24px;
+    width: 24px;
+  }
+
+  &__text {
+    color: #7B7B7B;
+    font: 400 19px/normal Geologica;
+    transition: color 0.3s ease;
+  }
+
+  &__text--logout {
+    color: #DEDEDE;
+  }
+
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+
+  &:hover svg path {
+    margin-right: 25px;
+    fill: #38A6FF;
+  }
+
+  &:hover &__text,
+  &:hover &__text--logout {
+    color: #262728;
+  }
+
+  &--active {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+
+  &--active svg path {
+    fill: #38A6FF;
+  }
+}
+
+.horizontal-border {
+  border-bottom: 1px solid #EEE;
+  margin: 12px 0;
+}
